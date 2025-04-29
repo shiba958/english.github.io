@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facultad de Medicina - Universidad Internacional</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Estilos personalizados */
+    .hero-overlay {
+      background: rgba(0, 33, 71, 0.6); /* Azul marino semitransparente */
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-900">
+
+  <!-- Hero Section con video de fondo -->
+  <section class="relative h-screen overflow-hidden">
+    <video class="absolute w-full h-full object-cover" autoplay muted loop>
+      <source src="https://cdn.pixabay.com/vimeo/518101209/medical-55007.mp4?width=1280&hash=5b69ad7870c2a1e24bd7ac48158e72e89f9f39e7" type="video/mp4">
+      Tu navegador no soporta videos HTML5.
+    </video>
+
+    <div class="hero-overlay absolute w-full h-full flex flex-col justify-center items-center text-center text-white p-4">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4" style="color: #CFAE60;">About Us</h1>
+      <p class="text-lg md:text-2xl mb-6">Learn more about the students making these posible.</p>
+      <a href="#about" class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-3 px-6 rounded-full transition">Learn More</a>
+    </div>
+  </section>
+
+</body>
+</html>
